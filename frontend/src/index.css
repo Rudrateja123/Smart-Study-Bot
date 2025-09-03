@@ -1,0 +1,9 @@
+/* src/index.css */
+
+body {
+  margin: 0; /* Remove default browser margin */
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
