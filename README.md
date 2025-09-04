@@ -3,9 +3,7 @@
 
 An AI-powered tutor that uses Generative AI and emotion recognition to personalize learning. It analyzes a student's facial expressions to detect stress or boredom and dynamically adapts its teaching style. This full-stack app is syllabus-aware, answering questions from uploaded documents and creating quizzes for active learning.
 
-*(**Action:** To add a screenshot, upload an image of your app to a site like [Imgur](https://imgur.com/upload) and paste the link here)*
-
-## Features ✨
+## ✨ Features 
 
 * **🧠 Emotion-Aware Tutoring**: Utilizes the user's webcam to detect emotions in real-time. The AI's tone and response style adapt to be more encouraging if the user seems stressed or more engaging if they seem bored.
 * **📚 Syllabus-Aware (RAG)**: Users can upload their course materials (PDF, DOCX, TXT files). The bot uses a Retrieval-Augmented Generation (RAG) pipeline to provide answers grounded specifically in that content.
@@ -20,7 +18,7 @@ An AI-powered tutor that uses Generative AI and emotion recognition to personali
 
 ---
 
-## How It Works ⚙️
+## ⚙️ How It Works 
 
 1.  **RAG Pipeline**: When a user uploads a document, the backend uses **LangChain** to load, chunk, and embed the text into a **FAISS** vector store. When a question is asked, the system retrieves relevant context to ensure grounded answers.
 2.  **Emotion Detection Pipeline**: The React frontend uses `face-api.js` to analyze the webcam stream in the browser. The detected emotion is sent as a simple string with each question.
@@ -28,7 +26,7 @@ An AI-powered tutor that uses Generative AI and emotion recognition to personali
 
 ---
 
-## Tech Stack 🛠️
+##  🛠️ Tech Stack
 
 * **Frontend**: React, Vite, CSS3, `face-api.js`
 * **Backend**: Python, Flask
@@ -36,22 +34,22 @@ An AI-powered tutor that uses Generative AI and emotion recognition to personali
 
 ---
 
-## Setup and Installation 🚀
+## 🚀 Setup and Installation 
 
-### Prerequisites 🔑
+### 🔑 Prerequisites 
 
 * Git
 * Python 3.9+
 * Node.js and npm
 
-### 1. Clone the Repository 📂
+### 1. 📂 Clone the Repository 
 
 ```bash
 git clone [https://github.com/YOUR_USERNAME/smart-study-bot.git](https://github.com/YOUR_USERNAME/smart-study-bot.git)
 cd smart-study-bot
 ````
 
-### 2\. Backend Setup ⚙️
+### 2. ⚙️ Backend Setup 
 
 1.  Navigate to the backend folder:
     ```bash
@@ -70,7 +68,7 @@ cd smart-study-bot
     python app.py
     ```
 
-### 3\. Frontend Setup 🎨
+### 3. 🎨 Frontend Setup 
 
 1.  Open a new terminal and navigate to the frontend folder:
     ```bash
@@ -89,3 +87,4 @@ cd smart-study-bot
 
 ```
 ```
+
